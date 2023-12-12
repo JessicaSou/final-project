@@ -38,29 +38,47 @@
 
     </section>
 
+    <main class="">
         <section id="hero">
-            <!-- Use a container class that will set a max-width at each breakpoint -->
-            <div class="container"> 
-              <!-- Use flexbox classes to set hero text in the center of the image -->
+            <div class="container wrapper"> 
               <div class="d-flex justify-content-center align-items-center">
-                <!-- Change text to white and center align text -->
                 <div class="text-light text-center">
-                  <!-- Use a display class for font for the h1 -->
                   <h1 class="display-1">From our neighbourhood to yours!</h1>
-                  <!-- Use an appropriate class that styles the following text as lead text -->
                   <p class="lead">Some lead text or subtitle</p>
                 </div>
               </div>
             </div>
-
-        <p>From our neighbourhood to yours!</p>
     </section>
 
 
-
-
+<section class="about-us">
+    <div class="wrapper row d-flex flex-row-reverse">
+      <div class="col-lg-6">
+        <!-- Adjust the img with a class to make it responsive (fluid) -->
+        <img class="img-fluid border" src="images/people-2567915_1280.jpg" alt="">
+      </div>
+      <div class="col-lg-6 d-flex justify-content-center align-items-center">
+        <div>
+          <h2 class=""> About Us</h2>
+          <p>
+            Step into the heartwarming world of "3 Sisters Bakeshop," where the tantalizing aroma of freshly baked treats beckons customers with a promise of sweet indulgence. 
+              This charming establishment, nestled on a bustling corner, is a haven for those seeking a delightful escape into a symphony of flavors. 
+          </div>
+      </div>
+    </div>
+  </section>
 
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  
+  </main>
+
+  <footer class="bg-warning text-light">
+    <div class="container py-3 text-center">
+      <p class="mb-0">&copy; 3 Sisters Bakeshop 2023</p>
+    </div>
+
+  </footer>
+
 </body>
 </html>

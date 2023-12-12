@@ -11856,7 +11856,13 @@ textarea.form-control-lg {
   }
 }
 html {
-  font-family: "DM Serif Display", serif;
+  font-family: "DM Serif Display", serif !important;
+}
+
+.wrapper {
+  max-width: 1280px;
+  align-content: center;
+  margin: auto;
 }
 
 @media (min-width: 992px) {
@@ -11876,6 +11882,7 @@ a.nav-link {
 }
 
 #hero {
+  max-width: 100%;
   background-image: url(../images/cheesecake-1578695_1920.jpg);
   background-position: center center;
   background-size: cover;
@@ -11883,11 +11890,22 @@ a.nav-link {
 }
 
 #hero .d-flex {
-  height: 70vh;
+  height: 82vh;
 }
 
 .display-1 {
+  font-family: "DM Serif Display" !important;
   text-align: right;
+}
+
+.about-us {
+  padding: 60px 0 60px 0;
+}
+
+.border {
+  border-color: black;
+  border-width: medium 10px;
+  border-radius: 80px;
 }
 
 /*# sourceMappingURL=custom.css.map */
