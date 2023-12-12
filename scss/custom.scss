@@ -20,6 +20,26 @@ h1, h2{
   text-align: center;
 }
 
+#cakes-page{
+  text-align: center;
+  max-width: 50%;
+  padding: 80px 0 80px 0;
+  background-image: url(../images/icons/swirl-divider.svg);
+  background-position: bottom center;
+  background-size:600px;
+  background-repeat: no-repeat;
+}
+
+#about-us-page{
+  text-align: center;
+  max-width: 50%;
+  padding: 80px 0 80px 0;
+  background-image: url(../images/icons/swirl-divider.svg);
+  background-position: bottom center;
+  background-size:600px;
+  background-repeat: no-repeat;
+}
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
@@ -34,6 +54,7 @@ body{
   max-width: 1280px;
   align-content: center;
   margin: auto;
+  padding: 40px 0 40px 0;
 }
 
 
@@ -79,16 +100,9 @@ body{
   .display-1 {
     font-family:'DM Serif Display' !important;
     text-align: right;
+  
   }
 
-  #cakes-page {
-    max-width: 50%;
-    padding: 80px 0 80px 0;
-    background-image: url(../images/icons/swirl-divider.svg);
-    background-position: bottom center;
-    background-size:600px;
-    background-repeat: no-repeat;
-  }
 
 // about us homepage
 
@@ -105,4 +119,24 @@ body{
 button{
   font-family:'DM Serif Display' !important;
   border-radius:  80px;
+}
+
+
+// About Us page
+
+.carousel .carousel-item {
+  height: 800px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+
+
+.card-img-top{
+ size: 50%;
 }

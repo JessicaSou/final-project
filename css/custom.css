@@ -7,6 +7,26 @@ h1, .h1, h2, .h2 {
   text-align: center;
 }
 
+#cakes-page {
+  text-align: center;
+  max-width: 50%;
+  padding: 80px 0 80px 0;
+  background-image: url(../images/icons/swirl-divider.svg);
+  background-position: bottom center;
+  background-size: 600px;
+  background-repeat: no-repeat;
+}
+
+#about-us-page {
+  text-align: center;
+  max-width: 50%;
+  padding: 80px 0 80px 0;
+  background-image: url(../images/icons/swirl-divider.svg);
+  background-position: bottom center;
+  background-size: 600px;
+  background-repeat: no-repeat;
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -11871,6 +11891,7 @@ body {
   max-width: 1280px;
   align-content: center;
   margin: auto;
+  padding: 40px 0 40px 0;
 }
 
 @media (min-width: 992px) {
@@ -11911,15 +11932,6 @@ body {
   text-align: right;
 }
 
-#cakes-page {
-  max-width: 50%;
-  padding: 80px 0 80px 0;
-  background-image: url(../images/icons/swirl-divider.svg);
-  background-position: bottom center;
-  background-size: 600px;
-  background-repeat: no-repeat;
-}
-
 .about-us {
   padding: 60px 0 60px 0;
 }
@@ -11932,6 +11944,22 @@ body {
 button {
   font-family: "DM Serif Display" !important;
   border-radius: 80px;
+}
+
+.carousel .carousel-item {
+  height: 800px;
+}
+
+.carousel-item img {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 500px;
+}
+
+.card-img-top {
+  size: 50%;
 }
 
 /*# sourceMappingURL=custom.css.map */
