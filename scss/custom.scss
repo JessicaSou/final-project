@@ -12,12 +12,20 @@ $danger: #E5446D;
 $light: #f2f2f2;
 $dark: #181853;
 
+h1, h2{
+  font-family:'DM Serif Display' !important;
+}
+
+.h1-cakes{
+  text-align: center;
+}
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
 
 body{
-    font-family: 'DM Serif Display', serif !important;
+   font-family: 'Jost', sans-serif, !important;
 
 }
 
@@ -80,10 +88,11 @@ body{
 
 
 .border{
-  border-width: medium 10px;
+  border-width: 30px;
   border-radius: 80px;
 }
 
 button{
+  font-family:'DM Serif Display' !important;
   border-radius:  80px;
 }

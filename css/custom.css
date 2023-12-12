@@ -1,4 +1,12 @@
 @charset "UTF-8";
+h1, .h1, h2, .h2 {
+  font-family: "DM Serif Display" !important;
+}
+
+.h1-cakes {
+  text-align: center;
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -11856,7 +11864,7 @@ textarea.form-control-lg {
   }
 }
 body {
-  font-family: "DM Serif Display", serif !important;
+  font-family: "Jost", sans-serif, !important;
 }
 
 .wrapper {
@@ -11907,11 +11915,12 @@ body {
 }
 
 .border {
-  border-width: medium 10px;
+  border-width: 30px;
   border-radius: 80px;
 }
 
 button {
+  font-family: "DM Serif Display" !important;
   border-radius: 80px;
 }
 
