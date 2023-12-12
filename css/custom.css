@@ -11958,6 +11958,14 @@ button {
   min-height: 500px;
 }
 
+#meet-the-team {
+  text-align: center;
+}
+
+.card-group > .card {
+  border-radius: 60px;
+}
+
 .card-img-top {
   size: 50%;
 }
