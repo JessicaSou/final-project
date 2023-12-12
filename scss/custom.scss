@@ -3,25 +3,24 @@
 
 // Include any default variable overrides here (though functions won't be available)
 
+$primary: #007082;
+$secondary: #3B53C7;
+$success: #A4D882;
+$info: #322112;
+$warning: #815a3a;
+$danger: #E5446D;
+$light: #f2f2f2;
+$dark: #181853;
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
 
-html{
+body{
     font-family: 'DM Serif Display', serif !important;
 
 }
 
-$theme-colors: (
-  "primary":    $primary,
-  "secondary":  $secondary,
-  "success":    $success,
-  "info":       $info,
-  "warning":    $warning,
-  "footer":     $orange-700,
-  "light":      $light,
-  "dark":       $dark
-);
 
 .wrapper{
   max-width: 1280px;
@@ -44,9 +43,15 @@ $theme-colors: (
     padding: auto;
 }
 
-a.nav-link{
-    color: black;
-  }
+.nav a{
+    color: #000000;
+}
+
+.nav a:hover{
+    color: $primary;
+ }
+
+
 
 // Hero
 
@@ -75,7 +80,10 @@ a.nav-link{
 
 
 .border{
-  border-color: black;
   border-width: medium 10px;
   border-radius: 80px;
+}
+
+button{
+  border-radius:  80px;
 }
